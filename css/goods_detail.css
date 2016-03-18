@@ -1,0 +1,75 @@
+body{
+    margin-top: 0px;
+    padding-top: 0px;
+    font-size: 12px;
+}
+a{
+    color: blue;
+    text-decoration: none;
+}
+
+a:visited{
+    /*color: black;*/
+}
+a:hover{
+    text-decoration: underline;
+    color: #ff0b86;
+}
+#main{
+    border: 1px solid #fff;
+    width: 1024px;
+    /*height: 500px;*/
+    margin: 0px auto;
+    padding: 0px 0px 0px 24px;
+    /*background: url("../images/list_bg.gif") no-repeat 23px 0px;*/
+}
+p{
+    border-bottom: 1px solid #ccc;
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
+    padding: 5px 0px 5px 0px;
+}
+#show{
+    float: left;
+}
+#small_show{
+    list-style: none;
+    padding: 0px;
+}
+#small_show li{
+    float: left;
+    margin: 5px 8px 5px 8px;
+    border: 1px solid #cccccc;
+}
+#big_show{
+    width: 350px;
+    /*border:  1px solid red;*/
+    height: 265px;
+}
+#show b{
+    margin-right: 40px;
+}
+#detail{
+    float: left;
+    margin-left: 50px;
+    /*border: 1px solid red;*/
+}
+#detail ul{
+    padding: 0px;
+    height: 20px;
+    list-style: none;
+    clear: both;
+    border-bottom: 1px dotted #cccccc;
+}
+#detail ul li{
+    padding: 5px 0px 5px 0px;
+    float: left;
+}
+#bk{
+    border: 1px solid #deb887;
+    margin-left: 0px;
+    padding: 0px;
+    height: 43px;
+    width: 300px;
+}

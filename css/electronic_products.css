@@ -1,0 +1,47 @@
+body{
+    margin-top: 0px;
+    padding-top: 0px;
+    font-size: 12px;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+    color: #ff0b86;
+}
+#main{
+    border: 1px solid #fff;
+    width: 1024px;
+    margin: 0px auto;
+    background: url("../images/list_bg.gif") no-repeat 23px 0px;
+}
+#list{
+    width: 976px;
+    /*border: 1px solid red;*/
+    margin-top: 50px;
+    margin-left: 24px;
+}
+#list tr{
+    border-bottom: 1px dotted #ccc;
+}
+#list th{
+    padding-bottom: 5px;
+
+    text-align: center;
+    border-bottom: 2px dotted #999999;
+}
+#list td{
+    border-bottom: 1px dotted #999999;
+    /*border: 1px solid red;*/
+    text-align: center;
+    padding: 5px 70px 5px 70px;
+}
+#list ul{
+    /*border: 1px solid red;*/
+    padding: 0px;
+    list-style: none;
+}

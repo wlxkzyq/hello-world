@@ -1,0 +1,72 @@
+body{
+    margin-top: 0px;
+    padding-top: 0px;
+    font-size: 12px;
+}
+a{
+    color: blue;
+    text-decoration: none;
+}
+
+a:visited{
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+    color: #ff0b86;
+}
+#main{
+    border: 1px solid #fff;
+    width: 1024px;
+    /*height: 500px;*/
+    margin: 0px auto;
+    padding: 0px 0px 0px 24px;
+    /*background: url("../images/list_bg.gif") no-repeat 23px 0px;*/
+}
+#main_left{
+    background: url("../images/customer.jpg") no-repeat;
+    width: 183px;
+    height: 550px;
+    margin-left: 11px;
+    float: left;
+}
+#main_left ul{
+    list-style: none;
+    padding: 180px 0px 0px 10px;
+}
+#main_left ul img{
+    border: 0px;
+}
+
+#main_right{
+    float: left;
+    width: 793px;
+    height: 550px;
+    border: 1px solid #bc8f8f;
+}
+#main_right p{
+    font-size: 18px;
+    margin:50px 0px 40px 40px;
+    font-weight: bold;
+}
+#main_right_stephead{
+    font-size: 14px;
+    /*border: 1px solid #bc8f8f;*/
+    padding: 40px 0px 10px 20px;
+}
+#main_right_step{
+    margin-left: 40px;
+    background: url("../images/reg_step.jpg") no-repeat;
+    width: 495px;
+    height: 48px;
+    padding-left: 6px;
+    line-height: 48px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+#main_right ul{
+    font-size: 14px;
+    margin-top: 30px;
+    /*border: 1px solid #bc8f8f;*/
+    list-style-image: url("../images/list_icon.gif");
+}

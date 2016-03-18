@@ -1,0 +1,112 @@
+body{
+    margin-top: 0px;
+    padding-top: 0px;
+    font-size: 12px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+    color: #ff0b86;
+}
+#top{
+    width: 1024px;
+    height: 130px;
+    margin: 0px auto;
+    background:url("../images/h_bg.jpg");
+    /*border: 1px solid red;*/
+}
+
+.buycar{
+    margin-left:550px;
+    margin-top: 0px;
+    width: 465px;
+    height: 40px;
+    /*border: 1px solid gray;*/
+    list-style: none;
+    padding-left: 3px;
+}
+.buycar li{
+    float: left;
+    margin-top: 15px;
+    padding-right: 10px;
+    /*border: 1px solid red;*/
+}
+#buycarImage{
+    background: url("../images/icon.gif") 0px -6px;
+    width: 15px;
+    height: 20px;
+    margin-right: 3px;
+}
+#buycarImage1{
+    background: url("../images/icon.gif") -163px -30px;
+    width: 15px;
+    height: 20px;
+    margin-right: 3px;
+}
+#buycarImage2{
+    background: url("../images/icon.gif") -125px -4px;
+    width: 15px;
+    height: 20px;
+    margin-right: 3px;
+}
+#buycarImage3{
+    background: url("../images/icon.gif") -85px -4px;
+    width: 15px;
+    height: 20px;
+    margin-right: 3px;
+}
+#lot{
+    margin-top: 10px;
+}
+#lot a{
+    width:30px;
+    /*display: block;*/
+    float: left;
+    padding:4px 5px 4px 5px;
+    margin-left: 8px;
+    background: url("../images/icon.gif") -3px -29px;
+}
+#time{
+    margin-left: 500px;
+    margin-top: 40px;
+    word-spacing: 10px;
+    letter-spacing: 3px;
+}
+.nav{
+    list-style: none;
+    padding-left: 24px;
+    /*border: 1px solid gray;*/
+    margin-top: 10px;
+}
+.nav li{
+    float: left;
+    /*border: 1px solid red;*/
+    margin-top: 4px;
+    width: 83px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+#ser{
+    float: left;
+    /*border: 1px solid red;*/
+    margin-top: 0px;
+    width: 255px;
+    padding-left: 40px;
+}
+#ser input{
+    margin-left: 10px;
+}
+#select{
+    border: 0px  gray solid;
+    height: 23px;
+    width: 65px;
+    padding-top: 3px;
+    background: url("../images/select.png");
+}

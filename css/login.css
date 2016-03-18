@@ -1,0 +1,84 @@
+body{
+    margin-top: 0px;
+    padding-top: 0px;
+    font-size: 12px;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+    color: #ff0b86;
+}
+#main{
+    border: 1px solid #fff;
+    /*height: 500px;*/
+    width: 1024px;
+    margin: 0px auto;
+    background: url("../images/login_bg.gif") no-repeat 24px -0px;
+}
+#login{
+    margin-top: 90px;
+    margin-left: 100px;
+    float: left;
+}
+#loginhead{
+    width: 150px;
+    height: 52px;
+    background: url("../images/logintitle.gif");
+}
+#submit{
+    height: 34px;
+    width: 80px;
+    border: 0px;
+    background: url("../images/login.gif");
+}
+#regist{
+    margin-left: 550px;
+    margin-top: 80px;
+    border-left: 1px solid #808080;
+    padding-left: 50px;
+    padding-bottom: 30px;
+}
+#registhead{
+    width: 63px;
+    height: 15px;
+    background: url("../images/register.gif");
+}
+#registtip p{
+    line-height: 35px;
+}
+#registtip p a{
+    font-weight: bold;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.reg{
+    display: block;
+    float: left;
+    height: 35px;
+    width: 35px;
+    /*border: 1px solid red;*/
+}
+#regnow{
+    display: block;
+    width: 160px;
+    height: 37px;
+    background: url("../images/registernow.gif");
+    margin-left: 80px;
+}
+#regist ul{
+    border: 1px solid #deb887;
+    width: 200px;
+    list-style: none;
+    padding: 5px 15px;
+    background-color: #fdffe2;
+}
+#regist ul li{
+    background-color: #fbfffd;
+    border: 1px solid #ded3b1;
+    padding: 3px 10px;
+}
