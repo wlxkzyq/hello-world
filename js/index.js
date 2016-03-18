@@ -79,7 +79,7 @@ $(function(){
     //随鼠标滚动的广告事件
     window.onscroll=function(){
         var top=$("#adv_left")[0].currentStyle.top;
-        alert(document.body.scrollTop);
+        //alert(document.body.scrollTop);
        $("#adv_left,#adv_right").css("top",200+document.documentElement.scrollTop+document.body.scrollTop+"px");
     };
     //广告图片关闭事件
