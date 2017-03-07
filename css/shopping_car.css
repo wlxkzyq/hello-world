@@ -1,0 +1,85 @@
+body{
+    margin-top: 0px;
+    padding-top: 0px;
+    font-size: 12px;
+}
+a{
+    color: blue;
+    text-decoration: none;
+}
+
+a:visited{
+    /*color: black;*/
+}
+a:hover{
+    text-decoration: underline;
+    color: #ff0b86;
+}
+#main{
+    border: 1px solid #fff;
+    width: 1024px;
+    /*height: 500px;*/
+    margin: 0px auto;
+    padding: 0px;
+    /*background: url("../images/list_bg.gif") no-repeat 23px 0px;*/
+}
+#head{
+    margin: 0px;
+    padding: 0px;
+    height: 35px;
+}
+#head ul{
+    /*border: 1px solid red;*/
+    margin-top: 10px;
+    list-style: none;
+}
+#head ul li{
+    /*border: 1px solid red;*/
+    line-height: 23px;
+    font-weight: bold;
+    float: left;
+    padding: 0px 50px 0px 50px;
+}
+#goods_head{
+    margin-left: 24px;
+    background: url("../images/buytitle_bg.gif") no-repeat;
+    width: 980px;
+    height: 32px;
+}
+#goods_head b{
+    line-height: 28px;
+    margin-left: 60px;
+}
+form{
+    margin-left: 35px;
+    margin-top: 20px;
+}
+form td{
+    font-size: 14px;
+    height: 25px;
+    text-align: center;
+}
+.left{
+    text-align: left;
+}
+.sale{
+    color: #b60c17;
+}
+.price{
+    color: #666666;
+}
+form ul{
+    list-style: none;
+    padding: 0px;
+}
+form ul li{
+    font-size: 14px;
+    float: left;
+}
+#submit{
+    clear: both;
+    border: 0px;
+   background: url("../images/»∑»œ∂©µ•.jpg");
+    width: 183px;
+    height: 42px;
+}

@@ -1,0 +1,18 @@
+body{
+    margin-top: 0px;
+    padding-top: 0px;
+    font-size: 12px;
+}
+#main{
+    border: 1px solid #fff;
+    /*height: 500px;*/
+    width: 1024px;
+    margin: 0px auto;
+    text-align: center;
+}
+#headimage{
+    margin: 0px auto;
+    background: url("../images/logo.png");
+    height: 91px;
+    width: 260px;
+}

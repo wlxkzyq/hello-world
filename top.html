@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<meta charset="GBK">
+<head>
+    <title>头部</title>
+    <link href="css/top.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.11.3.js" type="application/javascript"></script>
+    <script type="application/javascript">
+        var nowtime=new Date("2015-11-19");
+       getTime();
+        function getTime(){
+            nowtime=new Date(nowtime.getTime()+1000);
+            $("#time label").html(nowtime.toLocaleString());
+            var t=setTimeout("getTime()",1000);
+        }
+    </script>
+</head>
+<body>
+<div id="top">
+
+        <ul class="buycar">
+            <li id="buycarImage"></li>
+            <li><a href="">购物车</a></li>
+            <li id="buycarImage1"></li>
+            <li><a href="">服务中心</a></li>
+            <li id="buycarImage2"></li>
+            <li><a href="">买家中心</a></li>
+            <li id="buycarImage3"></li>
+            <li><a href="">商品分类</a></li>
+            <li id="lot"><a href="">注册</a><a href="">登陆</a></li>
+        </ul>
+    <div id="time">你好，欢迎访问贝壳·易购商城!<label></label></div>
+    <ul class="nav">
+        <li><a href="">首页</a> </li>
+        <li><a href="">家用电器</a> </li>
+        <li><a href="">书籍</a> </li>
+        <li><a href="">手机</a> </li>
+        <li><a href="">日用品牌</a> </li>
+        <li><a href="">服装</a> </li>
+        <li><a href="">加盟该店</a> </li>
+        <li><a href="">服务中心</a> </li>
+        <li id="ser"><form><input type="text" style="width: 150px"><input type="submit" value="搜索" id="select"> </form> </li>
+
+    </ul>
+
+</div>
+</body>
+</html>

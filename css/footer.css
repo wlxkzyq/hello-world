@@ -1,0 +1,76 @@
+body{
+    font-size: 12px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+    color: #ff0b86;
+}
+#footer{
+    width: 1024px;
+    height: 135px;
+    margin: 0px auto;
+    /*border: 1px solid red;*/
+}
+.center{
+    text-align: center;
+}
+#hel{
+    margin-left: 40px;
+}
+.help{
+ float: left;
+    margin-left: 50px;
+}
+#foot1{
+    /*border: 1px solid red;*/
+    background: url("../images/footer.png") -171px -97px;
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+#foot2{
+    /*border: 1px solid red;*/
+    background: url("../images/footer.png") -365px -97px;
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+#foot3{
+    /*border: 1px solid red;*/
+    background: url("../images/footer.png") -555px -97px;
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+#foot4{
+    /*border: 1px solid red;*/
+    background: url("../images/footer.png") -748px -97px;
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+#foot5{
+    /*border: 1px solid red;*/
+    background: url("../images/footer.png") -940px -97px;
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+.help dd{
+    /*border: 1px solid red;*/
+    width: 90px;
+    padding: 3px;
+}
+.big{
+    font-weight: bold;
+}
+.help dd a{
+    color: #666666;
+}

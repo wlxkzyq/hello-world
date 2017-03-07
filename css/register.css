@@ -1,0 +1,46 @@
+body{
+    font-size: 12px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+    color: #ff0b86;
+}
+#main{
+    border: 1px solid #fff;
+    width: 1024px;
+    margin: 0px auto;
+    background: url("../images/reg_bg.gif") no-repeat 24px -0px;
+}
+form{
+    margin-left: 80px;
+    margin-top: 50px;
+    float: left;
+}
+.right{
+    text-align: right;
+}
+#submit{
+    background:url(../images/submit.gif) no-repeat -0px 0px;
+    width:79px;
+    height:35px;
+    border:0px;
+}
+#reset{
+    background:url(../images/reset.gif) no-repeat -0px 0px;
+    width:79px;
+    height:35px;
+    border:0px;
+}
+#protocol{
+    /*border: 1px solid red;*/
+    margin-left:700px;
+    margin-top: 50px;
+}
