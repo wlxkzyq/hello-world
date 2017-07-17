@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-Hello world!Monday.
-=======
-Hello ___ world!
->>>>>>> 732b178a2bb7d892c33093194ae8597f58562396
+fgjslgk
